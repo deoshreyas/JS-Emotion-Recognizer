@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+:root {
+    --blue: #4C4C6D;
+    --green: #1B9C85;
+    --yellow: #FFE194;
+    --white: #E8F6EF;
+}
+
+body {
+    background-color: var(--blue);
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.uploadFile input[type='file'] {
+    opacity: 0;
+}
+
+.uploadFile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.uploadFile label {
+    color: var(--yellow);
+    cursor: pointer;
+    border: .5vh solid var(--yellow);
+    padding: 2vh;
+    font-size: 5vh;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
