@@ -4,7 +4,7 @@ A fairly simple website capable of detecting human faces in photographs, and rec
 
 Click [here] for a demo.
 
-[here]:deoshreyas.github.io/JS-Emotion-Recognizer 
+[here]:https://deoshreyas.github.io/JS-Emotion-Recognizer 
 
 ## :grey_question: How to use it locally?
 - Clone the repository on your computer.
