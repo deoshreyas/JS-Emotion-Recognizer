@@ -2,7 +2,7 @@
 
 A fairly simple website capable of detecting human faces in photographs, and recognizes emotions! Built using **face-api.js**.
 
-Click [here] for a demo
+Click [here] for a demo.
 
 [here]:deoshreyas.github.io/JS-Emotion-Recognizer 
 
